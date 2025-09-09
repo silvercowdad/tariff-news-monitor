@@ -16,7 +16,9 @@ client = OpenAI(api_key=API_KEY)
 # --- Settings ---
 FEED_URLS = [
     "https://feeds.reuters.com/reuters/businessNews",
-    # 필요시 추가: "https://feeds.reuters.com/reuters/worldNews",
+    "https://feeds.reuters.com/reuters/worldNews",
+    "https://feeds.reuters.com/reuters/USbusinessNews",
+    "https://feeds.reuters.com/reuters/USpoliticsNews",
 ]
 DEFAULT_KEYWORDS = "tariff|tariffs|duty|duties|section 301|section 232|anti-dumping|countervailing|retaliatory tariff"
 
